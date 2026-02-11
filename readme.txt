@@ -1,0 +1,4 @@
+The versiondownsampling section mainly presents the results of training a logistic regression model using k-fold cross-validation after applying downsampling to the training set. During the testing phase, the test set is first downsampled in the same manner as the training set to evaluate the model’s performance under an artificially constructed negative-to-positive sample ratio of 5:1. Subsequently, the model is evaluated on the test set with the original data distribution to better simulate its performance in real-world scenarios.
+
+The versionfulldata section focuses on training and evaluating the model using the full dataset, and further investigates the selection of an optimal classification threshold based on Youden’s J statistic. In addition, both .ipynb files include quantitative analysis and evaluation of the uplift model.
+
