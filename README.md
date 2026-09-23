@@ -1,4 +1,4 @@
-【English version below / Version française ci-dessous】
+#【English version below / Version française ci-dessous】
 
 # Criteo 广告增量效果建模
 
@@ -47,7 +47,7 @@ Youden’s J 分析选出的分类阈值为 `0.3608` 和 `0.4013`。阈值调整
 分位图展示的是模型预测的 uplift。若要验证其广告投放价值，需要在独立测试集上比较各 uplift 分位中实验组与控制组的实际转化表现，并确认 treatment 的分配机制支持因果解释。
 
 
-【English version】
+#【English version】
 # Criteo Advertising Uplift Modeling
 
 ## Overview
@@ -95,7 +95,7 @@ Uplift decile analysis shows positive average predicted uplift in the highest de
 The decile chart shows predicted uplift. To validate its value for advertising decisions, compare observed conversions between treatment and control groups within each uplift decile on an independent test set, and confirm that the treatment assignment supports a causal interpretation.
 
 
-【Version française】
+#【Version française】
 # Modélisation de l’uplift publicitaire avec Criteo
 
 ## Présentation du projet
